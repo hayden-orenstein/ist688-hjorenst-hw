@@ -1,7 +1,7 @@
 import streamlit as st
 from openai import OpenAI, AuthenticationError
 from PyPDF2 import PdfReader
-
+#define read pdf function
 def read_pdf(uploaded_file):
     pdf_reader = PdfReader(uploaded_file)
     document = ""
