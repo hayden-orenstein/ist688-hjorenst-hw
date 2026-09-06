@@ -22,7 +22,7 @@ st.write(
 )
 
 url = st.text_input(
-    "Enter a webpage URL:",
+    "Enter a  URL:",
     placeholder="https://example.com/article"
 )
 
