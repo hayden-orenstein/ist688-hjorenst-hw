@@ -74,7 +74,7 @@ if llm_choice == "OpenAI":
 else:
 
     if advanced_model:
-        model_name = "gemini-3.1-pro-preview"
+        model_name = "gemini-3.6-flash"
     else:
         model_name = "gemini-3.5-flash-lite"
 
