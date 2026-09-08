@@ -16,14 +16,22 @@ hw1_page = st.Page(
 hw2_page = st.Page(
     "HW/hw2.py",
     title="Homework 2",
-    icon=":material/language:",
+    icon=":material/language:"
+    
+)
+
+hw3_page = st.Page(
+    "HW/hw3.py",
+    title="Homework 3",
+    icon=":material/chat:",
     default=True
 )
 
 
 pg = st.navigation([
     hw1_page,
-    hw2_page
+    hw2_page,
+    hw3_page
 ])
 
 
